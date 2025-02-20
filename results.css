@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(love.jpg) no-repeat center center/ cover;
+}
+
+.header{
+    font-size: larger;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
+.main-results{
+    height: 300px;
+    width: 100%;
+    background: url(love1.jpg) no-repeat center center/ cover;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+    color:#17153B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+.result .result2{
+    text-transform: capitalize;
+    font-size: larger;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.result .result1{
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: bold;
+}
